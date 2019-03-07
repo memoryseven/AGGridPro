@@ -1,0 +1,9 @@
+var itemsToUpdate = [];
+Grid.api.forEachNodeAfterFilterAndSort(function (rowNode, index) {
+      let data = rowNode.data;
+      //
+      //处理数据
+      //
+      itemsToUpdate.push(data);
+  });
+ Grid.api.updateRowData({ update: itemsToUpdate });
