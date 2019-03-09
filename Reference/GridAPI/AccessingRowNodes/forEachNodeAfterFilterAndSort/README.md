@@ -1,6 +1,5 @@
 ### Accessing Data
 ### iterate only nodes that pass the filter and ordered by the sort order
-### 筛选排序
 ### 在节点筛选排序后迭代
 ```
 api.forEachNodeAfterFilterAndSort(function(rowNode, index) {
