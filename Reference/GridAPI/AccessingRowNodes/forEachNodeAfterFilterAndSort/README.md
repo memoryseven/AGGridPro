@@ -1,6 +1,6 @@
 ### Accessing Data
 ### iterate only nodes that pass the filter and ordered by the sort order
-### 在节点筛选排序后迭代
+### 在节点筛选排序后迭代 筛选排序
 ```
 api.forEachNodeAfterFilterAndSort(function(rowNode, index) {
     console.log('node ' + rowNode.data.athlete + ' passes the filter and is in this order');
